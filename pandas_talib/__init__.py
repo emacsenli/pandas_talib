@@ -60,6 +60,13 @@ def EMA(df, n, price='Close'):
     result=pd.Series(pd.ewma(df[price], span=n, min_periods=n - 1), name='EMA_' + str(n))
     return out(SETTINGS, df, result)
 
+def KAMA(df,n):
+    """
+    Kaufman Moving Average
+    """
+    PP = (df['High'] + df['Low']) / 2
+    
+    
 
 def MOM(df, n, price='Close'):
     """
