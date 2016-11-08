@@ -130,7 +130,7 @@ RSI                 | Relative Strength Index | DONE
 SAR                 | Parabolic SAR | 
 SAREXT              | Parabolic SAR - Extended | 
 SMA                 | Simple Moving Average | 
-SMI                 ||Newly Added
+SMI                 |Stochastic Momentum Index|8th.Nov.2016 Newly Added
 STDDEV              | Standard Deviation | DONE
 STOCH               | Stochastic | 
 STOCHF              | Stochastic Fast | 
