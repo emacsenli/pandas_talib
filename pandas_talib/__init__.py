@@ -1,10 +1,12 @@
 '''
 Created on April 15, 2012
-Last update on July 18, 2015
+Last update on Nov 8, 2016
 
 @author: Bruno Franca
 @author: Peter Bakker
 @author: Femto Trader
+@author: Emacsen
+
 '''
 import pandas as pd
 
