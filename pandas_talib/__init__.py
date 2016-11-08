@@ -68,7 +68,10 @@ def KAMA(df,n):
     """
     PP = (df['High'] + df['Low']) / 2
     
-    
+def SMI(df,n):
+    """
+    SMI and KAMA should work together and be set as same parameters
+    """
 
 def MOM(df, n, price='Close'):
     """
