@@ -1,9 +1,9 @@
-__author__ = "Femto Trader"
+__author__ = "Femto Trader", "Emacsen"
 __copyright__ = "Copyright 2015"
-__credits__ = ["Femto Trader", "panpanpandas", "Bruno Franca", "Peter Bakker"]
+__credits__ = ["Emacsen", "Femto Trader", "panpanpandas", "Bruno Franca", "Peter Bakker"]
 __license__ = "MIT"
-__version__ = "0.0.1"
-__maintainer__ = "Femto Trader"
+__version__ = "0.0.1.1a"
+__maintainer__ = "Femto Trader","Emacsen"
 __email__ = "femto.trader@gmail.com"
 __status__ = "Development"
 __url__ = 'https://github.com/femtotrader/pandas_talib'
