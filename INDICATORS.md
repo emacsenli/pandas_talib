@@ -90,7 +90,7 @@ HT_PHASOR           | Hilbert Transform - Phasor Components |
 HT_SINE             | Hilbert Transform - SineWave | 
 HT_TRENDLINE        | Hilbert Transform - Instantaneous Trendline | 
 HT_TRENDMODE        | Hilbert Transform - Trend vs Cycle Mode | 
-KAMA                | Kaufman Adaptive Moving Average | 
+KAMA                | Kaufman Adaptive Moving Average | UnderWorking
 KELCH               | Keltner Channel | DONE
 KST                 | KST Oscillator | DONE
 LINEARREG           | Linear Regression | 
@@ -130,6 +130,7 @@ RSI                 | Relative Strength Index | DONE
 SAR                 | Parabolic SAR | 
 SAREXT              | Parabolic SAR - Extended | 
 SMA                 | Simple Moving Average | 
+SMI                 ||Newly Added
 STDDEV              | Standard Deviation | DONE
 STOCH               | Stochastic | 
 STOCHF              | Stochastic Fast | 
