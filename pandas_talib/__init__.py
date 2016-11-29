@@ -66,11 +66,18 @@ def KAMA(df,n):
     """
     Kaufman Moving Average
     """
+    def minusone(x):
+        df=pd.Dataframe(x)
+        t=df[-1]-df[-2]
+        return t
+    
     PP = (df['High'] + df['Low']) / 2
+    Directions=pd.abs(PP[-1]-PP[-1-n])
+    Volatility=pd.Series(pd.rolling_sum(pd.abs(pd.rolling_apply(pp,1,lamda x : minusone(x))),n))
     
 def SMI(df,n):
     """
-    SMI and KAMA should work together and be set as same parameters
+    SMI and KAMA should work together and be set up with same parameters
     """
 
 def MOM(df, n, price='Close'):
