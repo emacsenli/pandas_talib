@@ -67,7 +67,7 @@ def KAMA(df,n):
     Kaufman Moving Average
     """
     def minusone(x):
-        df=pd.Dataframe(x)
+        df=pd.DataFrame(x)
         t=df[-1]-df[-2]
         return t
     
