@@ -28,7 +28,7 @@ class Columns(object):
 indicators=["MA", "EMA", "MOM", "ROC", "ATR", "BBANDS", "PPSR", "STOK", "STO",
     "TRIX", "ADX", "MACD", "MassI", "Vortex", "KST", "RSI", "TSI", "ACCDIST",
     "Chaikin", "MFI", "OBV", "FORCE", "EOM", "CCI", "COPP", "KELCH", "ULTOSC",
-    "DONCH", "STDDEV"]
+    "DONCH", "STDDEV","KAMA","SMI"]
 
 
 class Settings(object):
