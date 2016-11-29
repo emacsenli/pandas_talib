@@ -73,7 +73,7 @@ def KAMA(df,n):
     
     PP = (df['High'] + df['Low']) / 2
     Directions=pd.Series.abs(PP[-1]-PP[-1-n])
-    Volatility=pd.Series(pd.rolling_sum(pd.Series.abs(pd.rolling_apply(pp,1,lambda x : minusone(x))),n))
+    Volatility=pd.Series(pd.rolling_sum(pd.Series.abs(pd.rolling_apply(PP,1,lambda x : minusone(x))),n))
     
 def SMI(df,n):
     """
